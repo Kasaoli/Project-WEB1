@@ -1,4 +1,5 @@
 import React from "react";
+import "../estilos/CardAtleta.css"
 
 const CardAtleta = ({ atleta, adicionarFavorito }) => {
     return (
