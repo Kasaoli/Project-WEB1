@@ -1,0 +1,14 @@
+.painel-favoritos {
+    margin: 16px;
+  }
+  .favorito-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .favorito-card img {
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  

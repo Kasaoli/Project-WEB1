@@ -1,5 +1,5 @@
 import React from "react";
-import "../estilos/CardAtleta.css"
+import "../estilos/CardAtleta.css";
 
 const CardAtleta = ({ atleta, adicionarFavorito }) => {
     return (
@@ -9,7 +9,7 @@ const CardAtleta = ({ atleta, adicionarFavorito }) => {
             <p>{atleta.strTeam}</p>
             <button onClick={() => adicionarFavorito(atleta)}>Adicionar aos favoritos</button>
         </div>
-    )
-}
+    );
+};
 
 export default CardAtleta;
