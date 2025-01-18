@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { buscarAtletas } from "./api/esportesAPI";
 import CardAtleta from "./componentes/CardAtleta";
 import PainelFavoritos from "./componentes/PainelFavoritos";
+import "./estilos/App.css";
 
 const App = () => {
   const [nome, setNome] = useState("");

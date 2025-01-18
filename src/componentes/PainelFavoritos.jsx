@@ -8,13 +8,15 @@ const PainelFavoritos = ({ favoritos }) => {
             {favoritos.length === 0 ? (
                 <p>Nenhum atleta favorito ainda.</p>
             ) : (
-                favoritos.map((atleta) => (
-                    <div key={atleta.idPlayer} className="favorito-card">
-                        <img src={atleta.strThumb || "https://via.placeholder.com/150"} alt={atleta.strPlayer} />
-                        <h3>{atleta.strPlayer}</h3>
-                        <p>{atleta.strTeam}</p>
-                    </div>
-                ))
+                <div className="favoritos-container">
+                    {favoritos.map((atleta) => (
+                        <div key={atleta.idPlayer} className="favorito-card">
+                            <img src={atleta.strThumb || "https://via.placeholder.com/150"} alt={atleta.strPlayer} />
+                            <h3>{atleta.strPlayer}</h3>
+                            <p>{atleta.strTeam}</p>
+                        </div>
+                    ))}
+                </div>
             )}
         </div>
     );
