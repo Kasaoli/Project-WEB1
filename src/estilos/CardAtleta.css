@@ -1,0 +1,19 @@
+.card-atleta {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    margin: 8px;
+    border-radius: 8px;
+  }
+  .card-atleta img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  .card-atleta button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
