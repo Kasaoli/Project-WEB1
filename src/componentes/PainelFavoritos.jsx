@@ -11,7 +11,7 @@ const PainelFavoritos = ({ favoritos }) => {
                 <div className="favoritos-container">
                     {favoritos.map((atleta) => (
                         <div key={atleta.idPlayer} className="favorito-card">
-                            <img src={atleta.strThumb || "https://via.placeholder.com/150"} alt={atleta.strPlayer} />
+                            <img src={atleta.strThumb} alt={atleta.strPlayer} />
                             <h3>{atleta.strPlayer}</h3>
                             <p>{atleta.strTeam}</p>
                         </div>
